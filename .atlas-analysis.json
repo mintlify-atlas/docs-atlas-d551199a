@@ -1,0 +1,145 @@
+{
+  "projectType": "frontend",
+  "projectName": "Luan Nguyen Portfolio",
+  "projectDescription": "A modern, Spotify-inspired portfolio website built with Next.js showcasing projects, experience, and blog posts.",
+  "theme": "almond",
+  "primaryColor": "#1DB954",
+  "lightColor": "#B3B3B3",
+  "darkColor": "#191414",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "deployment"
+            ]
+          },
+          {
+            "group": "Customization",
+            "pages": [
+              "customization/overview",
+              "customization/content",
+              "customization/styling",
+              "customization/components"
+            ]
+          },
+          {
+            "group": "Features",
+            "pages": [
+              "features/blog-system",
+              "features/project-showcase",
+              "features/github-integration",
+              "features/spotify-integration",
+              "features/animations"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Components",
+        "groups": [
+          {
+            "group": "Layout",
+            "pages": [
+              "components/navigation",
+              "components/footer",
+              "components/mobile-nav"
+            ]
+          },
+          {
+            "group": "Sections",
+            "pages": [
+              "components/profile-card",
+              "components/projects",
+              "components/experience",
+              "components/skills",
+              "components/github-contributions",
+              "components/spotify-album"
+            ]
+          },
+          {
+            "group": "Blog",
+            "pages": [
+              "components/blog-header",
+              "components/blog-post-card",
+              "components/blog-post-content"
+            ]
+          },
+          {
+            "group": "UI Elements",
+            "pages": [
+              "components/loader",
+              "components/spotlight",
+              "components/background-gradient"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Content Management",
+            "pages": [
+              "guides/adding-projects",
+              "guides/adding-experience",
+              "guides/writing-blog-posts"
+            ]
+          },
+          {
+            "group": "Development",
+            "pages": [
+              "guides/local-development",
+              "guides/docker-setup",
+              "guides/environment-variables"
+            ]
+          },
+          {
+            "group": "Deployment",
+            "pages": [
+              "guides/vercel-deployment",
+              "guides/aws-deployment",
+              "guides/custom-domain"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Spotify-inspired dark theme with green accent colors",
+    "Dynamic project showcase with 20+ personal projects",
+    "Markdown-based blog system with frontmatter support",
+    "GitHub contributions calendar integration",
+    "Spotify album display integration",
+    "Smooth animations using Framer Motion",
+    "Responsive design with mobile navigation",
+    "TypeScript for type safety",
+    "Tailwind CSS for styling",
+    "Vercel Analytics and Speed Insights",
+    "Docker containerization support",
+    "SEO optimized with Open Graph metadata"
+  ],
+  "publicApiSurface": [
+    "ProfileCard - Main profile section with bio and social links",
+    "Projects - Grid display of personal projects with filtering",
+    "ExperienceItems - Timeline of work experience",
+    "Skills - Technical skills showcase",
+    "ProgrammingLanguages - Language proficiency display",
+    "GithubContributions - GitHub activity calendar",
+    "SpotifyAlbum - Currently playing or favorite album",
+    "BlogPostList - List of blog posts with pagination",
+    "BlogPostCard - Individual blog post preview card",
+    "Navigation - Main navigation bar",
+    "MobileNav - Mobile-responsive navigation menu",
+    "Footer - Site footer with links",
+    "Loader - Loading animation component",
+    "Spotlight - Visual spotlight effect",
+    "BackgroundGradient - Gradient background effect"
+  ]
+}
